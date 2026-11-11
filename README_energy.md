@@ -25,7 +25,7 @@ Countries fall into four groups, and they are not walking the same road.
 
 ## About the data
 
-- Global Data on Sustainable Energy (2000 to 2020), 3,649 rows and 21 columns, covering 176 countries `[add the link to where you downloaded it]`
+- Global Data on Sustainable Energy (2000 to 2020), 3,649 rows and 21 columns, covering 176 countries
 - Indicators include access to electricity and clean cooking fuels, renewable energy share, electricity by source, CO2 emissions, GDP, energy intensity and country location
 
 ## What I did
@@ -51,18 +51,6 @@ Countries fall into four groups, and they are not walking the same road.
 - The Random Forest uses the same features that created the clusters, so its high accuracy shows the groups are separable, not that they are the only valid grouping.
 - Results show associations between income and energy pathways, not proof of cause.
 - Some indicators had high missingness (renewable capacity per capita, for example) and were imputed.
-
-## How to run it
-
-Keep the data file `global-data-on-sustainable-energy.csv` in the same folder as the notebook, then run:
-
 ```
-pip install pandas numpy matplotlib seaborn scipy scikit-learn shap jupyter
-jupyter notebook
-```
-
-Then open the notebook and run the cells in order.
-
 ## Author
-
 Ayesha Jawed, Habib University
